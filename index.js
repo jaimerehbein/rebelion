@@ -72,7 +72,7 @@ document.getElementById("results").addEventListener("click", function(e) {
     console.log(playerSource);
   }
 })
-// 4. Create a way to append the fetch results to your page
+// 4. Create a way to append the fetch results to your 
 
 
 // 5. Create a way to listen for a click that will play the song in the audio play
