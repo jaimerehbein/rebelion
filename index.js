@@ -1,11 +1,12 @@
-
+/*
+  Here is a guide for the steps you could take:
+*/
 console.log("talking");
 // 1. First select and store the elements you'll be working with
 let searchIn = document.getElementById("search_field");
 let submit = document.getElementById('submit_button');
 let searchform = document.getElementById("search-form");
 let searchResults;
-var elementos = document.getElementsByClassName("song-play-area");
 
 let player = document.getElementById('music-player');
 //console.log("what's in search?:", search);
@@ -14,7 +15,9 @@ let player = document.getElementById('music-player');
 // 2. Create your `onSubmit` event for getting the user's search term
 
 submit.addEventListener('click', goSearch);
-//
+searchIn.addEventListener('keypress',goSearch);
+
+
 function goSearch() {
   let searchQuery = searchIn.value;
   //console.log(searchQuery);

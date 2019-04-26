@@ -987,7 +987,7 @@ img {
       font-size: 14px;
       color: #fff; }
 
-.song-play-area {
+/*.song-play-area {
   position: relative;
   z-index: 1;
   width: 100%;
@@ -1012,7 +1012,7 @@ img {
     background: #fff; }
   .song-play-area .audioplayer-time {
     font-size: 14px;
-    color: #fff; }
+    color: #fff; }*/
 
 /* :: 11.0 Miscellaneous Area CSS */
 .weeks-top-area {

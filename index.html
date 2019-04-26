@@ -80,12 +80,7 @@
                                 </ul>
 
                                 <!-- Login/Register & Cart Button -->
-                                <section class="search">
-                                    <div id="search-form">
-                                      <input type="text" name="search" id="search_field" placeholder="Search for Artist" value="">
-                                      <input type="submit" id="submit_button" value="Search">
-                                    </div>
-                                  </section>
+                               
                                     
                                 </div>
                             </section>
@@ -162,7 +157,13 @@
     background: linear-gradient(to top, #66ff00, #a80077); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     ">
         <div class="bradcumbContent">
-            <p>Busca tu música local</p>
+            <h1>Búsqueda de música</h1>
+            <section class="search">
+                <div id="search-form">
+                  <input type="text" name="search" id="search_field" placeholder="Search for Artist" value="">
+                  <input type="submit" id="submit_button" value="Search">
+                </div>
+              </section>
             
       <section class="search">
             
@@ -171,14 +172,15 @@
         </div>
     </section>
     <!-- ##### Breadcumb Area End ##### -->
+    
 
     <!-- ##### Album Catagory Area Start ##### -->
-    <section class="album-catagory section-padding-100-0">
+    <section class="album-category section-padding-100-0">
         <div class="container">
              <section    id="results" ></section>
              <section class="player">
 
-                <audio id="music-player" preload="auto" controls="controls" src=""></audio>
+                <audio id="music-player"  controls="controls" src=""></audio>
                 <div id="playing">Now playing: </div>
              </section>
         </div>
