@@ -1,0 +1,15 @@
+{
+  "name": "angularclase1",
+  "version": "1.0.0",
+  "description": "app de musica",
+  "main": "server.js",
+  "scripts": {
+    
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jaime rehbein",
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.16.4"
+  }
+}
